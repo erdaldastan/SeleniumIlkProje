@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class Day05_Xpath01 {
     public static void main(String[] args) {
         // Java projemize, chromedriver'ı tanıttık.
-        System.setProperty("webdriver.chrome.driver" , "C:\\Users\\isimsiz\\selenium dependencies\\selenium\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" , "C:\\Users\\naile\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
         driver.manage().window().maximize();
